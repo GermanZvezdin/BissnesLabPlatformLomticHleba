@@ -19,5 +19,45 @@
 ## Описание мобильного приложения
 Мобильное приложение обладает следующей функциональностью:
 ### Пользовательская часть: 
-    ![5SQ43vs5VxM](https://user-images.githubusercontent.com/71877725/107119532-3c8b9e00-6899-11eb-8c27-d7a14eae42eb.jpg)
+ - Возможность регистрации и входа обычных пользователей:
+   ![5SQ43vs5VxM](https://user-images.githubusercontent.com/71877725/107119587-b459c880-6899-11eb-86a9-fe24d80168ee.jpg)
+    ![fkdOpQBefV0](https://user-images.githubusercontent.com/71877725/107119620-eb2fde80-6899-11eb-981b-0db1582d91e7.jpg)
 
+ - Главная страница содержит промо-тренинг с видео и краткой инструкцией по созданию бизнес идей, а так же информацию о популярных курсах: 
+ 
+ ![CxBeeEOUKpM](https://user-images.githubusercontent.com/71877725/107119734-96409800-689a-11eb-8bbb-cc0ab5627a3a.jpg)
+ 
+ - На плитки с информацией о курсах можно нажимать и тогда оно развернется, отобразив больше информации и кнопку по которй можно записаться на курс. 
+ 
+ ![2Y2rsLXPE7M](https://user-images.githubusercontent.com/71877725/107119831-1ebf3880-689b-11eb-894b-986e5cf03fb2.jpg)
+ 
+ - Вкладка каталог содержит поисковик по всем курсам + популярные курсы и + актуальные бизнес идеи, все эти плитки так же функциональны. 
+ 
+![ofout_EevIQ](https://user-images.githubusercontent.com/71877725/107119894-7fe70c00-689b-11eb-80e7-b0bdbbc5a161.jpg)
+
+- После ознакомления с бизнес идеей можно нажать на кнопку "Предложить идею" и заполнить простую форму которая сражу отправится в БД 
+
+![LjnOZV_rLfY](https://user-images.githubusercontent.com/71877725/107119993-fb48bd80-689b-11eb-8030-c9e72ade4dc6.jpg)
+
+- Цвет круга рядом с ФИО зависти от количества пройденных курсов 
+
+![UeHw6k_k39c](https://user-images.githubusercontent.com/71877725/107120052-57abdd00-689c-11eb-9773-d806c1783a99.jpg)
+
+- Пользовательские данные можно редакктировать с помощью кнопки "Редактировать личные данные"
+
+![HucrcgOGF4I](https://user-images.githubusercontent.com/71877725/107120110-bbcea100-689c-11eb-9120-f221e68e18f2.jpg)
+
+### Админская часть 
+
+- Просмотр информации о всех пользователях 
+
+![5GoxMjJGO-A](https://user-images.githubusercontent.com/71877725/107120153-f7696b00-689c-11eb-9c6d-bf49e30a7719.jpg)
+
+![T7tE6_phzNM](https://user-images.githubusercontent.com/71877725/107120167-0f40ef00-689d-11eb-9747-c2e2c59748e2.jpg)
+
+- Просмотр информации и редактирования всех безнес-идей
+
+![DlygfoTsPp4](https://user-images.githubusercontent.com/71877725/107120183-2aabfa00-689d-11eb-9871-9f253c917dec.jpg)
+
+![j1OCpHOyjBI](https://user-images.githubusercontent.com/71877725/107120197-3d263380-689d-11eb-9825-337417bb0c20.jpg)
+ 
