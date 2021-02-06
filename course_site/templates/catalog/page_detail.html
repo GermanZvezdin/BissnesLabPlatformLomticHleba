@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content_title %}
+  <h2> About </h2>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="container">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title" style="color: black">{{ page.course.title}}</h2>
+            {% if page.course.author %}
+            <p class="blog-post-meta">December 14, 2013 by <a href="{{ page.course.author.get_absolute_url }}">{{ page.course.author}}</a></p>
+            {% endif %}
+        {{ page.content |safe }}
+          </div>
+
+
+        <nav class="nav nav-pills nav-fill">
+
+        <form action="{% url 'page_num' pk=page.course.id pn=prev_page %}" method="GET">
+                <input type="submit" class="btn btn-outline-primary" value="Previous page">
+            </form>
+
+            <form action="{% url 'page_num' pk=page.course.id pn=next_page %}" method="GET">
+                <input type="submit" class="btn btn-outline-primary" value="Next page">
+            </form>
+
+
+            {% if page.number == amount_of_pages %}
+            <form action="{% url 'finish_course' course_id=page.course.id %}" method="GET">
+                <input type="submit" class="btn btn-outline-primary" value="Finish course">
+            </form>
+            {% endif %}
+
+          </nav>
+
+        </div>
+    </div>
+
+{% endblock %}
